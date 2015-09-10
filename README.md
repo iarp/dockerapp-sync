@@ -11,6 +11,6 @@ docker run -d --name="Sync" \
         -p 5555:5555/tcp \
         -p 3838:3838/udp \
         -v "/mnt/user/appdata/Sync":"/config":rw \
-        limetech/sync
+        iarp/sync-v1.3.109
 ```
 
