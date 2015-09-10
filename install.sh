@@ -60,7 +60,7 @@ chmod -R +x /etc/service/ /etc/my_init.d/
 
 # Install BTSync
 mkdir -p /opt/btsync
-curl -s -k -L "http://files.iarp.ca/unraid/btsync_x64-1.3.109.tar.gz" | tar -xzf - -C /opt/btsync
+curl -s -k -L "https://raw.githubusercontent.com/iarp/dockerapp-sync/master/btsync_x64-1.3.109.tar.gz" | tar -xzf - -C /opt/btsync
 
 
 #########################################
